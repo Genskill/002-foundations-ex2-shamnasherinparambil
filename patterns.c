@@ -47,6 +47,7 @@ else{
            if (ch==2){
 
 int row= get_int("number of rows:");
+printf("\n");                      
 pyramid_two(row);
   }
 }
