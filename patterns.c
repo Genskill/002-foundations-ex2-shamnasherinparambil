@@ -45,10 +45,9 @@ pyramid_one(row);
 }
 else{
            if (ch==2){
-
-int row= get_int("number of rows:");                    
-pyramid_two(row);
-  }
+                      int row= get_int("number of rows:");                    
+                      pyramid_two(row);
+           }
 }
 
 return 0;
